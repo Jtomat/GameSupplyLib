@@ -1,0 +1,28 @@
+[000001]
+Sword
+[000002]
+Ordinary one-handed steel sword
+[000003]
+Two-handed sword
+[000004]
+Ordinary Two-handed steel sword
+[000005]
+Bow
+[000006]
+Soldier-equipped ordinary bow
+[000007]
+Crossbow
+[000008]
+Soldier-equipped ordinary crossbow
+[000009]
+Arrows
+[000010]
+Soldier-equipped ordinary arrows
+[000011]
+Bolts
+[000012]
+Soldier-equipped ordinary bolts
+[000013]
+Spear
+[000014]
+Ordinary one-handed steel spear

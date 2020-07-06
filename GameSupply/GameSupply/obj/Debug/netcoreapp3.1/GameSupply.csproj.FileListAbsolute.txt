@@ -1,0 +1,8 @@
+D:\Sourse\VS\repos\GameSupply\GameSupply\obj\Debug\netcoreapp3.1\GameSupply.AssemblyInfoInputs.cache
+D:\Sourse\VS\repos\GameSupply\GameSupply\obj\Debug\netcoreapp3.1\GameSupply.AssemblyInfo.cs
+D:\Sourse\VS\repos\GameSupply\GameSupply\bin\Debug\netcoreapp3.1\GameSupply.deps.json
+D:\Sourse\VS\repos\GameSupply\GameSupply\bin\Debug\netcoreapp3.1\GameSupply.dll
+D:\Sourse\VS\repos\GameSupply\GameSupply\bin\Debug\netcoreapp3.1\GameSupply.pdb
+D:\Sourse\VS\repos\GameSupply\GameSupply\obj\Debug\netcoreapp3.1\GameSupply.dll
+D:\Sourse\VS\repos\GameSupply\GameSupply\obj\Debug\netcoreapp3.1\GameSupply.pdb
+D:\Sourse\VS\repos\GameSupply\GameSupply\obj\Debug\netcoreapp3.1\GameSupply.csproj.ResolveComReference.cache
