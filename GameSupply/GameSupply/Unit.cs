@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Text;
-
+using UnityEngine;
 namespace GameSupply
 {
     /// <summary>
@@ -14,22 +14,17 @@ namespace GameSupply
         /// Длина шага
         /// </summary>
         protected float Step = 1;
-
         /// <summary>
         /// Возвращает координаты левого верхнего угла.
         /// </summary>
-        public Point Position 
+        public Vector3 Position 
         { 
-            get { return _hitbox.Location; } 
+            get { return new Vector3(_hitbox.X,_hitbox.Y); } 
         }
-        /// <summary>
-        /// Надо понять, как ограничить.
-        /// </summary>
-        public Rectangle HitBox { set; get; }
         /// <summary>
         /// Хитбокс для взаимодеуствий с другими объектами
         /// </summary>
-        Rectangle _hitbox = new Rectangle { Location = new Point(0, 0), Height = 1,Width=1 }; 
+        HitBox _hitbox = new HitBox { X = 0,Y=0,Height = 1,Width=1 }; 
         /// <summary>
         /// Направление движения, необходимо для определения анимации и атак.
         /// Только лево и право.
@@ -51,7 +46,7 @@ namespace GameSupply
         /// <summary>
         /// Для дальнейшей очистки от трупов
         /// </summary>
-        public bool isDead { private set; get; } = false;
+        public bool isDead { private set; get; } 
         /// <summary>
         /// Используемое оружие
         /// </summary>
@@ -127,24 +122,43 @@ namespace GameSupply
         /// Движение в выбранном направлении
         /// </summary>
         /// <param name="vector">Направление</param>
-        public virtual void Move(MoveVect vector)
+        /// <param name="floor">Объект, на котором стоит Unit</param>
+        public virtual Vector3 Move(MoveVect vector,LocationObject floor)
         {
             switch (vector)
             {
                 //TODO: отследить падение, если нет опоры снизу полностью
                 case MoveVect.Up:
                     //TODO: прыжок, вверх по деревянной лестнице
+                    
                     break;
                 case MoveVect.Left:
+                    Face = vector;
+                    _hitbox.X -= Step;
                     //TODO: влево
                     break;
                 case MoveVect.Right:
+                    Face = vector;
+                    _hitbox.X += Step;
                     //TODO: вправо
                     break;
                 case MoveVect.Down:
                     //TODO: пригнуться, вниз по деревянной лестнице
                     break;
             }
+            return Position;
+        }
+        private void Jump()
+        {
+            
+        }
+        private void Sit()
+        {
+        
+        }
+        private void Fall(LocationObject floor)
+        {
+            
         }
     }
 }

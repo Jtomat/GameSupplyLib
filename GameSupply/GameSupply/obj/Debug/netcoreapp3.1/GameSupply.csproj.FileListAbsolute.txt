@@ -5,4 +5,6 @@ D:\Sourse\VS\repos\GameSupply\GameSupply\bin\Debug\netcoreapp3.1\GameSupply.dll
 D:\Sourse\VS\repos\GameSupply\GameSupply\bin\Debug\netcoreapp3.1\GameSupply.pdb
 D:\Sourse\VS\repos\GameSupply\GameSupply\obj\Debug\netcoreapp3.1\GameSupply.dll
 D:\Sourse\VS\repos\GameSupply\GameSupply\obj\Debug\netcoreapp3.1\GameSupply.pdb
-D:\Sourse\VS\repos\GameSupply\GameSupply\obj\Debug\netcoreapp3.1\GameSupply.csproj.ResolveComReference.cache
+D:\Sourse\VS\repos\GameSupply\GameSupply\bin\Debug\netcoreapp3.1\UnityEngine.dll
+D:\Sourse\VS\repos\GameSupply\GameSupply\bin\Debug\netcoreapp3.1\UnityEngine.xml
+D:\Sourse\VS\repos\GameSupply\GameSupply\obj\Debug\netcoreapp3.1\GameSupply.csproj.CopyComplete
