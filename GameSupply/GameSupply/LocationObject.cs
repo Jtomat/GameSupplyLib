@@ -5,8 +5,8 @@ using System.Text;
 
 namespace GameSupply
 {
-    //TODO: абстрактный класс объектов окружения, 
-    class LocationObject
+    //TODO: абстрактный класс объектов окружения
+    public abstract class LocationObject
     {
 
     }
