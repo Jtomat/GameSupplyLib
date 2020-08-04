@@ -13,7 +13,7 @@ namespace GameSupply
         /// <summary>
         /// Длина шага
         /// </summary>
-        protected float Step = 1;
+        public float Step = 1;
         /// <summary>
         /// Возвращает координаты левого верхнего угла.
         /// </summary>

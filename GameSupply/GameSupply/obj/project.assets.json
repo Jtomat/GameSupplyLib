@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Sourse\\VS\\repos\\GameSupply\\GameSupply\\GameSupply.csproj",
+      "projectUniqueName": "D:\\Repos\\GameSupplyLib\\GameSupply\\GameSupply\\GameSupply.csproj",
       "projectName": "GameSupply",
-      "projectPath": "D:\\Sourse\\VS\\repos\\GameSupply\\GameSupply\\GameSupply.csproj",
+      "projectPath": "D:\\Repos\\GameSupplyLib\\GameSupply\\GameSupply\\GameSupply.csproj",
       "packagesPath": "C:\\Users\\Михаил\\.nuget\\packages\\",
-      "outputPath": "D:\\Sourse\\VS\\repos\\GameSupply\\GameSupply\\obj\\",
+      "outputPath": "D:\\Repos\\GameSupplyLib\\GameSupply\\GameSupply\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Михаил\\AppData\\Roaming\\NuGet\\NuGet.Config",
